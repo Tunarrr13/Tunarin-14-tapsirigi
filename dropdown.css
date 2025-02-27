@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 10vw;
+    margin: 35px;
+    height: 7vh;
+    background-color: aqua;
+    border-radius: 10px;
+    transition: 2.5s;
+}
+#translate:hover{
+    background-color: blue;
+    transform: translate(50px,50px);
+}
+#Rotate:hover{
+    background-color: greenyellow;
+    transform: rotate(45deg);
+}
+#Scale:hover{
+    background-color: brown;
+    transform: scale(1.5);
+}
+#Skew:hover{
+    transform: skew(20deg,10deg);
+}
